@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - ALIF</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <div class="container">
+<div class="navbar">
+    <div class="logo">
+        <img src="Free_Sample_By_Wix_3-removebg-preview (1).png" width="125px">
+    </div>
+    <nav>
+        <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <Li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+        </ul>
+    </nav>
+    <img src="cart.png" width="30px" height="30px">
+    <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+
+</div>
+</div>
+<!--------- cart items details------->
+<div class="small-container">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity<th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="suit 1.jpg">
+                <div>
+                <P>Suit</P>
+                <small>Price: 13,000</small>
+                <br>
+                <a href="">Remove</a>
+                </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>13,000</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="suit 1.jpg">
+                <div>
+                <P>Suit</P>
+                <small>Price: 13,000</small>
+                <br>
+                <a href="">Remove</a>
+                </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>13,000</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="suit 1.jpg">
+                <div>
+                <P>Suit</P>
+                <small>Price: 13,000</small>
+                <br>
+                <a href="">Remove</a>
+                </div>
+                </div> 
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>13,000</td>
+        </tr>
+        
+    </table>
+    <div class="total-price"></div>
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>Rs39,000</td>
+        </tr>
+        <tr>
+            <td>Deliver Charges</td>
+            <td>Rs250</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>Rs39,2500</td>
+        </tr>
+    </table>
+    </div>
+</div>
+
+<!-------------- footer ------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>hey!</h3>
+                <p>Stay Up to date with the latest fashion trends and Alif exclusives</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="Free_Sample_By_Wix_3-removebg-preview (1).png">
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2020 - ALIF</p>
+        </div>
+    </div>
+
+<!-----------js for toggle menu-------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if( MenuItems.style.maxHeight="0px")
+    {
+        MenuItems.style.maxHeight="200px";
+    }
+    else
+{
+    MenuItems.style.maxHeight="0px"
+}
+    }
+</script>
+
+
+
+</body>
+</html>
